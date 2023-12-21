@@ -24,13 +24,13 @@ body {
 }
 .container {
   display: flex;
-  width: 910px;
-  gap: 630px;
+  flex-direction: column;
+  margin: 65px auto;
+  width: 1000px;
 }
 header {
   display: flex;
-  justify-content: space-around;
-  margin: 65px auto;
+  justify-content: space-between;
 }
 header #treine-me {
   color: var(--color-text-destaque);
@@ -78,9 +78,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 80px;
-  width: 60%;
-  margin: 0 auto;
+  gap: 100px;
+  margin: 60px auto;
 }
 .container-text h1 {
   color: var(--color-titulo);
@@ -158,9 +157,4 @@ main {
   position: fixed;
   bottom: 0;
   right: 0;
-}
-@media (min-width: 1550px) and (max-width: 1920px) {
-  .container {
-    width: 980px;
-  }
 }
