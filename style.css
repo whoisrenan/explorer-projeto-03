@@ -22,6 +22,11 @@ body {
   box-sizing: border-box;
   background: var(--bg-color);
 }
+.container {
+  display: flex;
+  width: 910px;
+  gap: 630px;
+}
 header {
   display: flex;
   justify-content: space-around;
@@ -155,7 +160,7 @@ main {
   right: 0;
 }
 @media (min-width: 1550px) and (max-width: 1920px) {
-  header {
-    padding: 0 130px;
+  .container {
+    width: 980px;
   }
 }
