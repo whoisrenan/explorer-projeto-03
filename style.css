@@ -41,14 +41,6 @@ header #treine-me {
   line-height: 26px;
   text-decoration: none;
 }
-header span {
-  color: var(--color-text-header);
-  font-family: var(--font-secundaria);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
 .logo ul {
   list-style-type: none;
   padding: 0;
@@ -73,6 +65,15 @@ header span {
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
+}
+
+.menu ul li a:hover {
+  color: var(--color-text-header);
+  font-family: var(--font-secundaria);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 main {
   display: flex;
